@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chehlisfoto</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+</head>
+<body>
+   <div class="wrapper">
+    <header class="header">
+        <div class="header__company-atribute">
+            <div class="header__logo">
+                <div class="header__logo-item">c</div>
+            </div>
+            <div class="header__logo-text">Chehlisfoto</div>
+        </div>
+        <nav class="nav" id="navigation">
+            <a href="#advantages" class="link link--nav">почему мы</a>
+            <a href="#portfolio" class="link link--nav">портфолио</a>
+            <a href="#help" class="link link--nav">помощь</a>
+            <a href="#order" class="link link--nav">заказать</a>
+            <a href="#aboutUs" class="link link--nav">о нас</a>
+            <a href="#contacts" class="link link--nav">контакты</a>
+        </nav>
+    </header>
+    <section class="section section--main">
+        <div class="section--main__primary-text">
+            <h1 class="h1">Чехлы с вашим дизайном</h1>
+        </div>
+        <div class="section--main__secondary-text">
+            Твой мир. Твой дизайн. Сделай свой смартфон лучше!
+        </div>
+        <div class="section--main__order-btn-wrapper">
+            <a href="#order" class="button button--order link">
+                Я хочу чехол
+            </a>
+        </div>
+        <div class="section--main__down-btn-wrapper">
+            <a href="#advantages" class="button button--down">
+                <span class="icon icon--arrow"></span>
+            </a>
+        </div>
+    </section>
+    <section class="section section--advantages" id="advantages">
+        <div class="horizontal-range"></div>
+        <h2 class="h2">почему же наши чехлы?</h2>
+        <div class="section--advantages__content-wrapper">
+            <div class="advantage-wrapper">
+                <div class="advantage-icon">
+                    <div class="icon icon--rocket"></div>
+                </div>
+                <h3 class="h3">доставка</h3>
+                <div class="horizontal-range horizontal-range--mini"></div>
+                <div class="advantage-description">
+                    Возможна отправка чехла даже в день заказа.
+                </div>
+            </div>
+            <div class="advantage-wrapper">
+                <div class="advantage-icon">
+                    <div class="icon icon--desktop"></div>
+                </div>
+                <h3 class="h3">гарантия</h3>
+                <div class="horizontal-range horizontal-range--mini"></div>
+                <div class="advantage-description">
+                    Мы гарантируем качество нашей продукции! В течении 14 дней вы можете вернуть или обменять товар, который Вам не подошел.
+                </div>
+            </div>
+            <div class="advantage-wrapper">
+                <div class="advantage-icon">
+                    <div class="icon icon--value"></div>
+                </div>
+                <h3 class="h3">широкий асортимент</h3>
+                <div class="horizontal-range horizontal-range--mini"></div>
+                <div class="advantage-description">
+                    Широкий модельный ряд чехлов, который постоянно расширяется!
+                </div>
+            </div>
+            <div class="advantage-wrapper">
+                <div class="advantage-icon">
+                    <div class="icon icon--performance"></div>
+                </div>
+                <h3 class="h3">качество</h3>
+                <div class="horizontal-range horizontal-range--mini"></div>
+                <div class="advantage-description">
+                    Мы используем качественное японское оборудование и только оригинальные расходные материалы!
+                </div>
+            </div>
+        </div>
+        <div class="section--advantages-down-btn-wrapper">
+            <a href="#portfolio" class="button button--down">
+                <span class="icon icon--arrow"></span>
+            </a>
+        </div>
+    </section>
+    <section class="section section--portfolio" id="portfolio">
+        <h2 class="h2">наше портфолио</h2>
+        <div class="horizontal-range"></div>
+        <div class="section--portfolio__content-wrapper">
+           <button class="button button--slider-prev" id="portfolioPrevBtn">
+               <span class="icon icon--arrow"></span>
+           </button>
+            <div class="section--portfolio__slider-wrapper">
+                <div class="slide-wrapper">
+                    <img src="images/chehol1.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol2.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol3.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol1.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol2.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol3.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol1.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol2.jpg" alt="">
+                </div>
+                <div class="slide-wrapper">
+                    <img src="images/chehol3.jpg" alt="">
+                </div>
+            </div>
+            <button class="button button--slider-next" id="portfolioNextBtn">
+                <span class="icon icon--arrow"></span>
+            </button>
+        </div>
+        <div class="section--portfolio-down-btn-wrapper">
+            <a href="#help" class="button button--down">
+                <span class="icon icon--arrow"></span>
+            </a>
+        </div>
+    </section>
+    <section class="section section--help" id="help">
+        <h2 class="h2">как сделать заказ?</h2>
+        <div class="horizontal-range"></div>
+        <div class="section--help__content-wrapper">
+            <div class="section--help__step-wrapper section--help__step-wrapper--one">
+               <div class="step-icon">
+                   <div class="icon icon--idea"></div>
+               </div>
+                <div class="step-media-item">
+                    <h3 class="h3">Шаг <span class="text-illumination">1</span></h3>
+                    <div class="horizontal-range horizontal-range--mini"></div>
+                    <div class="step-description">
+                        Сделайте свой именной чехол или чехол с фото в нашем конструкторе.
+                    </div>
+                </div>
+            </div>
+            <div class="hexagon">
+             <div class="hexagon-range"></div>
+              <div class="hexTop"></div>
+              <div class="hexBottom"></div>
+            </div>
+            <div class="section--help__step-wrapper section--help__step-wrapper--two">
+               <div class="step-icon"></div>
+                <div class="step-media-item">
+                    <h3 class="h3">Шаг <span class="text-illumination">2</span></h3>
+                    <div class="horizontal-range horizontal-range--mini"></div>
+                    <div class="step-description">
+                        Оформите заказ. Заполните Ваши данные.
+                    </div>
+                </div>
+            </div>
+            <div class="section--help__step-wrapper section--help__step-wrapper--three">
+               <div class="step-icon"></div>
+                <div class="step-media-item">
+                    <h3 class="h3">Шаг <span class="text-illumination">3</span></h3>
+                    <div class="horizontal-range horizontal-range--mini"></div>
+                    <div class="step-description">
+                        Согласование заказа с менеджером. Мы свяжемся с Вами.
+                    </div>
+                </div>
+            </div>
+            <div class="section--help__step-wrapper section--help__step-wrapper--four">
+               <div class="step-icon"></div>
+                <div class="step-media-item">
+                    <h3 class="h3">Шаг <span class="text-illumination">4</span></h3>
+                    <div class="horizontal-range horizontal-range--mini"></div>
+                    <div class="step-description">
+                        Получите свой чехол на почте и не забудьте поделиться нашей страничкой с друзьями в инстаграмме.
+                    </div>
+                </div>
+                <div class="step-icon-end">
+                    <div class="icon icon--rocket"></div>
+                </div>
+            </div>
+        </div>
+        <div class="down-btn-wrapper">
+            <a href="#order" class="button button--down">
+                <span class="icon icon--arrow"></span>
+            </a>
+        </div>
+    </section>
+    <section class="section section--order" id="order">
+        <h2 class="h2">Создайте свой чехол</h2>
+        <div class="horizontal-range"></div>
+        <div class="section--order__content-wrapper">
+           <button class="button button--order" id="nominalCase">Хочу именной чехол!</button>
+            <div class="section--order__nominal-case">
+                <iframe src="http://endorphone.com.ua/personalcase/drop-new2.php?drop=8729" width="750" height="750" scrolling="no" frameborder="0" style="display:block; margin:0 auto;" id="personal-case-frame"></iframe><script>var window_W = document.documentElement.clientWidth;var window_H = window.innerHeight;if(window_W < 950){document.getElementById("personal-case-frame").style.width = window_W - 15 + "px";}if(window_H < 750){document.getElementById("personal-case-frame").style.height = "930px";}</script>
+            </div>
+            <button class="button button--order" id="personalCase">Хочу сам сделать чехол!</button>
+            <div class="section--order__personal-case">
+                <iframe src="http://endorphone.com.ua/conf_drop/?drop=8729" width="800" height="800" scrolling="no" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="section section--about-us" id="aboutUs">
+        <h2 class="h2">наша команда</h2>
+        <div class="horizontal-range"></div>
+        <div class="section--about-us__content-wrapper">
+          <div class="media-wrapper">
+           <button class="button button--slider-prev" id="memberPrevBtn">
+               <span class="icon icon--arrow"></span>
+           </button>
+            <div class="section--about-us__slider-wrapper">
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+                <div class="member-wrapper">
+                    <img src="images/member1.png" alt="">
+                    <div class="member-name">Анастасия Осипчук</div>
+                </div>
+            </div>
+            <button class="button button--slider-next" id="memberNextBtn">
+                <span class="icon icon--arrow"></span>
+            </button>
+            </div>
+        </div>
+    </section>
+    <section class="section section--services">
+        <div class="section--services__content-wrapper">
+            <h2 class="h2">наши услуги</h2>
+            <div class="horizontal-range"></div>
+            <div class="section--services__text-wrapper">
+                Мы предлагаем своим клиентам чехлы для телефонов, которые не только <br>
+                гарантируют безопасность вашего устройства, но и помогут сделать его <br>
+                уникальным даже среди своего модельного ряда. У нас вы найдете:<br><br>
+
+                Чехлы для телефонов любых моделей и расцветок.<br>
+                Мы предлагаем тысячи вариантов узоров и расцветок. <br>
+                Вы легко сможете купить чехол с подходящим для вас рисунком. <br>
+                Создать свой уникальный аксессуар. Наши мастера смогут сделать любые чехлы для телефонов. При 
+                этом вы сможете использовать как собственные фотографии, <br>
+                так и любой сторонний рисунок. Только у нас вы сможете купить чехол, который невозможно встретить у 
+                другого человека. <br>
+                Создать уникальную коллекцию согласно своим вкусам. Вы сможете менять <br>
+                чехлы для телефонов согласно своему настроению. <br>
+                Кроме того, вы сможете создавать целые серии для своей семьи или компании. <br>
+                В нашем интернет магазине вы найдете чехлы для телефонов любой модели. <br>
+                У нас представлены все знаменитые бренды, <br>
+                а также аксессуары на мобильные устройства молодых компаний. <br>
+                Только на нашем сайте вы сможете найти не только <br>
+                красиво оформленные аксессуары, но и получите дополнительные заставки, <br>
+                которые идеально сочетаются с оформлением самого чехла.
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <h2 class="h2">наши контакты</h2>
+        <div class="horizontal-range"></div>
+        <div class="footer__content-wrapper">
+            <a href="mailto:vladwhite19699@gmail.com">
+                vladwhite19699@gmail.com
+            </a>
+            <a href="tel:0500848576">
+                   (050) 08-48-576
+            </a>
+        </div>
+        <div class="footer__quote-wrapper">
+            <blockquote class="blockquote">
+                Мы будем рады видеть чехлы нашей компании на <br>
+                Ваших смартфонах
+            </blockquote>
+            <img src="images/boss.png" alt="">
+            <div class="quote-author">
+                Владислав Белый 
+                <div class="quote-post">Генеральний директор</div>
+            </div>
+        </div>
+        <div class="footer__bg">
+           <div class="media-item"></div>
+            <div class="footer__logo">Chehlisfoto</div>
+        </div>
+    </footer>
+    </div>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
