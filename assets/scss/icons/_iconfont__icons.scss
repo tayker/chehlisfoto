@@ -32,6 +32,11 @@ $global-font-icon: 'social';
       content: $icon-idea;
     }
   }
+  &.icon--list {
+    &:before {
+      content: $icon-list;
+    }
+  }
   &.icon--performance {
     &:before {
       content: $icon-performance;

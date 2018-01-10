@@ -7,7 +7,7 @@ $(document).ready(function() {
         prevArrow: $('#portfolioPrevBtn'),
         nextArrow: $('#portfolioNextBtn'),
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1110,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -34,7 +34,7 @@ $(document).ready(function() {
         prevArrow: $('#memberPrevBtn'),
         nextArrow: $('#memberNextBtn'),
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1110,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -102,4 +102,11 @@ $(document).ready(function() {
         }, 1000);
         e.preventDefault();
     });
+    
+    $('#adaptiveMenu').click(function(){
+        $('#navigation').toggleClass('active')
+    });
+    $('.link--nav').click(function(){
+        $('#navigation').toggleClass('active')
+    })
 });
