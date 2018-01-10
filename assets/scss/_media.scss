@@ -1,0 +1,194 @@
+@media screen and ( max-width: 1110px ){
+    .header{
+        padding-right: 0;
+        
+        .nav{
+            
+            .link{
+                margin-right: 1rem;
+            }
+        }
+    }
+    .section{
+        
+        &--main{
+            
+            .h1{
+                
+                &:before, &:after{
+                    display: none;
+                }
+            }
+        }
+        &--help{
+            
+            &__content-wrapper{
+                padding-bottom: 82rem;
+                max-width: 320px;
+            }
+            .hexagon{
+                display: none;
+            }
+            &__step-wrapper{
+                left: 50%;
+                transform: translatex(-50%);
+                
+                &--one{
+                    top: 100px;
+                    
+                    &:after{
+                        border-bottom: 7px solid #fe8682;
+                        bottom: -72px;
+                    }
+                }
+                &--two{
+                    top: 333px;
+                    
+                    &:after{
+                        border-left: 7px solid #fe8682;
+                        width: 139px;
+                        left: 23px;
+                        bottom: -71px;
+                    }
+                }
+                &--three{
+                    top: 564px;
+                    border-left: 3px solid #7d7c79;
+                    
+                    &:before{
+                        border-top: 3px solid #7d7c79;
+                        width: 140px;
+                        top: -68px;
+                    }
+                    
+                    &:after{
+                        border-bottom: 5px solid #fe8682;
+                    }
+                }
+                &--four{
+                    top: 826px;
+                    border-right: 3px solid #7d7c79;
+                    border-left: 5px solid #fe8682;
+                    
+                    &:before{
+                        border-right: 3px solid #7d7c79;
+                    }
+                    &:after{
+                        border-left: 5px solid #fe8682;
+                        border-bottom: 3px solid #7d7c79;
+                        left: 38px;
+                        bottom: -106px;
+                        width: 212px;
+                        height: 212px;
+                    }
+                }
+                
+                .step-icon--no-media{
+                    top: -50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+        
+        &--portfolio{
+            
+            &__slider-wrapper{
+                max-width: 600px;
+            }
+        }
+        &--about-us{
+            
+            &__slider-wrapper{
+                max-width: 600px;
+            }
+        }
+    }
+}
+@media screen and ( max-width: 900px ){
+    .header{
+
+        .nav-btn{
+            display: block;
+            margin-right: 50px;
+            padding: 0 2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            
+            .icon{
+                font-size: 3.2rem;
+                color: #fff;
+            }
+        }
+        .active{
+            position: absolute;
+            left: 0;
+            top: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: skyblue;
+            animation-name: show-adaptive-menu;
+            animation-duration: 300ms;
+            animation-fill-mode: forwards;
+         
+            .link--nav{
+                display: block;
+                margin-bottom: 2rem;
+            
+                &:hover{
+                    border: none;
+                }
+            }
+        }
+        .link--nav{
+            display: none;
+        }
+        
+    }
+    .section{
+        
+        &--advantages{
+            
+            &__content-wrapper{
+                flex-wrap: wrap;
+                .advantage-wrapper{
+                    width: 50%;
+                    margin-top: 4rem;
+                }
+            }
+        }
+    }
+    .footer{
+        
+        &__quote-wrapper{
+            flex-direction: column;
+            
+            .blockquote{
+                text-align: center;
+                margin-bottom: 2rem;
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+@media screen and ( max-width: 768px ){
+    .section{
+        
+        &--portfolio{
+            
+            &__slider-wrapper{
+                max-width: 300px;
+            }
+        }
+        
+        &--about-us{
+            
+            &__slider-wrapper{
+                max-width: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@keyframes header-left-range-anim{
+    from{
+        left: 70%;
+        background-color: #fff;
+        
+    }
+    to{
+        left: 110%;
+        background-color: #7d7c79;
+    }
+}
+@keyframes header-right-range-anim{
+    from{
+        right: 70%;
+        background-color: #fff;
+        
+    }
+    to{
+        right: 110%;
+        background-color: #7d7c79;
+    }
+}
+@keyframes show-adaptive-menu{
+    from{
+        height: 20px;
+    }
+    to{
+        height: 100vh;
+    }
+}

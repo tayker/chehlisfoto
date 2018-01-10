@@ -9,6 +9,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,700|Sarina");
 @import url("https://fonts.googleapis.com/css?family=Ranga");
+@import url("https://fonts.googleapis.com/css?family=Knewave");
 html {
   line-height: 1.15;
   /* 1 */
@@ -440,7 +441,7 @@ body {
   font-size: 5.1rem;
   color: white;
   text-transform: uppercase;
-  line-height: 0.706;
+  line-height: 1.206;
   font-weight: normal; }
 
 .h2 {
@@ -605,14 +606,14 @@ body {
       top: -26px;
       left: 12px;
       font-size: 4rem;
-      font-family: "Magneto";
+      font-family: "Magneto", "Knewave";
       color: #0c252d;
       font-weight: bold;
       text-transform: uppercase;
       line-height: 2.25; }
     .header__logo-text {
       font-size: 3rem;
-      font-family: "Magneto";
+      font-family: "Magneto", "Knewave";
       color: white;
       font-weight: bold;
       line-height: 0.522; }
@@ -631,6 +632,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center; }
+  .section .h2 {
+    margin-top: 10rem; }
   .section--main {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 24, 0.4)), to(rgba(24, 24, 24, 0.4))), url(../../images/main_bg.jpg);
     background: -o-linear-gradient(top, rgba(24, 24, 24, 0.4), rgba(24, 24, 24, 0.4)), url(../../images/main_bg.jpg);
@@ -671,6 +674,8 @@ body {
       padding: 5rem 0 24rem 0; }
   .section--advantages {
     padding: 10rem 0 0 0; }
+    .section--advantages .h2 {
+      margin-top: 2rem; }
     .section--advantages__content-wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1097,54 +1102,10 @@ body {
         border-left: solid 7.0711px #fe8682; }
   .footer__logo {
     font-size: 4rem;
-    font-family: "Magneto";
+    font-family: "Magneto", "Knewave";
     color: white;
     font-weight: bold;
     line-height: 0.65; }
-
-@-webkit-keyframes header-left-range-anim {
-  from {
-    left: 70%;
-    background-color: #fff; }
-  to {
-    left: 110%;
-    background-color: #7d7c79; } }
-
-@keyframes header-left-range-anim {
-  from {
-    left: 70%;
-    background-color: #fff; }
-  to {
-    left: 110%;
-    background-color: #7d7c79; } }
-
-@-webkit-keyframes header-right-range-anim {
-  from {
-    right: 70%;
-    background-color: #fff; }
-  to {
-    right: 110%;
-    background-color: #7d7c79; } }
-
-@keyframes header-right-range-anim {
-  from {
-    right: 70%;
-    background-color: #fff; }
-  to {
-    right: 110%;
-    background-color: #7d7c79; } }
-
-@-webkit-keyframes show-adaptive-menu {
-  from {
-    height: 20px; }
-  to {
-    height: 100vh; } }
-
-@keyframes show-adaptive-menu {
-  from {
-    height: 20px; }
-  to {
-    height: 100vh; } }
 
 @media screen and (max-width: 1110px) {
   .header {
@@ -1269,5 +1230,49 @@ body {
     max-width: 300px; }
   .section--about-us__slider-wrapper {
     max-width: 300px; } }
+
+@-webkit-keyframes header-left-range-anim {
+  from {
+    left: 70%;
+    background-color: #fff; }
+  to {
+    left: 110%;
+    background-color: #7d7c79; } }
+
+@keyframes header-left-range-anim {
+  from {
+    left: 70%;
+    background-color: #fff; }
+  to {
+    left: 110%;
+    background-color: #7d7c79; } }
+
+@-webkit-keyframes header-right-range-anim {
+  from {
+    right: 70%;
+    background-color: #fff; }
+  to {
+    right: 110%;
+    background-color: #7d7c79; } }
+
+@keyframes header-right-range-anim {
+  from {
+    right: 70%;
+    background-color: #fff; }
+  to {
+    right: 110%;
+    background-color: #7d7c79; } }
+
+@-webkit-keyframes show-adaptive-menu {
+  from {
+    height: 20px; }
+  to {
+    height: 100vh; } }
+
+@keyframes show-adaptive-menu {
+  from {
+    height: 20px; }
+  to {
+    height: 100vh; } }
 
 /*# sourceMappingURL=style.css.map */
