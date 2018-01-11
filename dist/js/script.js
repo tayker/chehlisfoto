@@ -52,30 +52,6 @@ $(document).ready(function() {
 
         ]
     });
-//    $('.review-slider-wrapper').slick({
-//        infinite: true,
-//        slidesToShow: 3,
-//        slidesToScroll: 1,
-//        autoplay: true,
-//        responsive: [{
-//                breakpoint: 1024,
-//                settings: {
-//                    slidesToShow: 2,
-//                    slidesToScroll: 2,
-//                    infinite: true
-//                }
-//            },
-//            {
-//                breakpoint: 768,
-//                settings: {
-//                    slidesToShow: 1,
-//                    slidesToScroll: 1,
-//                    infinite: true
-//                }
-//            }
-//
-//        ]
-//    });
     
     $('#nominalCase').click(function(){
         $('.section--order__nominal-case').css({"display": "block"})
@@ -106,7 +82,9 @@ $(document).ready(function() {
     $('#adaptiveMenu').click(function(){
         $('#navigation').toggleClass('active')
     });
+    
     $('.link--nav').click(function(){
         $('#navigation').toggleClass('active')
-    })
+    });
+    
 });
