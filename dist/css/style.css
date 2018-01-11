@@ -1169,7 +1169,7 @@ body {
   .section--about-us__slider-wrapper {
     max-width: 600px; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px), (orientation: portrait) {
   .header .nav-btn {
     display: block;
     margin-right: 50px;
@@ -1204,7 +1204,8 @@ body {
             animation-fill-mode: forwards; }
     .header .active .link--nav {
       display: block;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      font-size: 3rem; }
       .header .active .link--nav:hover {
         border: none; }
   .header .link--nav {
